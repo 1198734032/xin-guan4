@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #put{
+        width: 250px;
+        height: 40px;
+    }   
+    button{
+        height: 30px;
+        width: 100px;
+        background-color: antiquewhite;
+        border-radius: 5px;
+        border:none;
+    } 
+    #div1{
+        height:80px;
+        width: 1000px;
+      
+    }
+    #div2{
+        height:500px ;
+        width: 1000px;
+        background-color: aquamarine;
+        display: flex;
+        align-items: flex-end;
+    }
+   
+    
+    </style>
+</head>
+<body>
+    <div id="div1">
+    <input type="text" id="put">
+    <button id="leftput" onclick="leftput()">左侧入</button>  
+    <button id="rightput" onclick="rightput()">右侧入</button>
+    <button id="leftdel" onclick="">左侧出</button>
+    <button id="rightdel" onclick="">右侧出</button>
+    <button id="sort" onclick="">重新排序</button>
+    <button id="alldel" onclick="">清空</button>
+    <button id="random" onclick="">随机生成</button>
+    </div>
+    <div id="div2"></div>
+    <script src="fifth.js"></script>
+    
+</body>
+</html>
